@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "IHOspbi9Og3Fy2ZscbzN1+FdeM7lIUZevS7tiSNuO8M=",
+  "Source": "mrp-api",
+  "BasePath": "_content/mrp-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

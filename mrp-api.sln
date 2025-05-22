@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mrp-api", "mrp-api\mrp-api.csproj", "{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86058329-5EC1-49BA-939F-9AA99AA02974}
+	EndGlobalSection
+EndGlobal

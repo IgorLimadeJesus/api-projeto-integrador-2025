@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|c:\\users\\igorm\\documents\\projetos\\projeto-integrador-2025\\backend\\mrp-api\\dtos\\models\\insumosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|solutionrelative:mrp-api\\dtos\\models\\insumosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|c:\\users\\igorm\\documents\\projetos\\projeto-integrador-2025\\backend\\mrp-api\\dtos\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|solutionrelative:mrp-api\\dtos\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|c:\\users\\igorm\\documents\\projetos\\projeto-integrador-2025\\backend\\mrp-api\\dtos\\objects\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|solutionrelative:mrp-api\\dtos\\objects\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|c:\\users\\igorm\\documents\\projetos\\projeto-integrador-2025\\backend\\mrp-api\\controllers\\mrpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|solutionrelative:mrp-api\\controllers\\mrpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|c:\\users\\igorm\\documents\\projetos\\projeto-integrador-2025\\backend\\mrp-api\\dtos\\enums\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|solutionrelative:mrp-api\\dtos\\enums\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|c:\\users\\igorm\\documents\\projetos\\projeto-integrador-2025\\backend\\mrp-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|solutionrelative:mrp-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|c:\\users\\igorm\\documents\\projetos\\projeto-integrador-2025\\backend\\mrp-api\\repositorios\\insumosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|solutionrelative:mrp-api\\repositorios\\insumosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|c:\\users\\igorm\\documents\\projetos\\projeto-integrador-2025\\backend\\mrp-api\\repositorios\\interface\\iinsumorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|solutionrelative:mrp-api\\repositorios\\interface\\iinsumorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|c:\\users\\igorm\\documents\\projetos\\projeto-integrador-2025\\backend\\mrp-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1FFBD1-14C6-4DB3-BCDE-6B501166EDF9}|mrp-api\\mrp-api.csproj|solutionrelative:mrp-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 333,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\DTOs\\Enums\\Status.cs",
+              "RelativeDocumentMoniker": "mrp-api\\DTOs\\Enums\\Status.cs",
+              "ToolTip": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\DTOs\\Enums\\Status.cs",
+              "RelativeToolTip": "mrp-api\\DTOs\\Enums\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:52:10.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InsumosModel.cs",
+              "DocumentMoniker": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\DTOs\\Models\\InsumosModel.cs",
+              "RelativeDocumentMoniker": "mrp-api\\DTOs\\Models\\InsumosModel.cs",
+              "ToolTip": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\DTOs\\Models\\InsumosModel.cs",
+              "RelativeToolTip": "mrp-api\\DTOs\\Models\\InsumosModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:49:52.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InsumosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\Repositorios\\InsumosRepositorio.cs",
+              "RelativeDocumentMoniker": "mrp-api\\Repositorios\\InsumosRepositorio.cs",
+              "ToolTip": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\Repositorios\\InsumosRepositorio.cs",
+              "RelativeToolTip": "mrp-api\\Repositorios\\InsumosRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:38:58.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IInsumoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\Repositorios\\Interface\\IInsumoRepositorio.cs",
+              "RelativeDocumentMoniker": "mrp-api\\Repositorios\\Interface\\IInsumoRepositorio.cs",
+              "ToolTip": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\Repositorios\\Interface\\IInsumoRepositorio.cs",
+              "RelativeToolTip": "mrp-api\\Repositorios\\Interface\\IInsumoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:38:03.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\DTOs\\Objects\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "mrp-api\\DTOs\\Objects\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\DTOs\\Objects\\RegisterModel.cs*",
+              "RelativeToolTip": "mrp-api\\DTOs\\Objects\\RegisterModel.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:09:38.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "mrp-api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "mrp-api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAMwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:24:01.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MrpController.cs",
+              "DocumentMoniker": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\Controllers\\MrpController.cs",
+              "RelativeDocumentMoniker": "mrp-api\\Controllers\\MrpController.cs",
+              "ToolTip": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\Controllers\\MrpController.cs",
+              "RelativeToolTip": "mrp-api\\Controllers\\MrpController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAawEkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:59:11.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\DTOs\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "mrp-api\\DTOs\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\DTOs\\Models\\UserModel.cs",
+              "RelativeToolTip": "mrp-api\\DTOs\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:24:15.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\Program.cs",
+              "RelativeDocumentMoniker": "mrp-api\\Program.cs",
+              "ToolTip": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\Program.cs",
+              "RelativeToolTip": "mrp-api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:07:23.062Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
