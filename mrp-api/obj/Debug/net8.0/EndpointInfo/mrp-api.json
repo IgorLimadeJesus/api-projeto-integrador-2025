@@ -635,6 +635,37 @@
         }
       }
     },
+    "/MRP/Calcular": {
+      "post": {
+        "tags": [
+          "Mrp"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterModelCalculo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterModelCalculo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterModelCalculo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/": {
       "get": {
         "tags": [
@@ -889,6 +920,20 @@
         },
         "additionalProperties": false
       },
+      "Estoque_Atual": {
+        "type": "object",
+        "properties": {
+          "nomeProduto": {
+            "type": "string",
+            "nullable": true
+          },
+          "qntdDisponivel": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "FornecedorModel": {
         "type": "object",
         "properties": {
@@ -973,6 +1018,34 @@
         },
         "additionalProperties": false
       },
+      "Lead_Time": {
+        "type": "object",
+        "properties": {
+          "nomeItem": {
+            "type": "string",
+            "nullable": true
+          },
+          "tempoReposicao": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Lista_Materiais": {
+        "type": "object",
+        "properties": {
+          "nomeComponente": {
+            "type": "string",
+            "nullable": true
+          },
+          "qtndUnidade": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "MachineModel": {
         "type": "object",
         "properties": {
@@ -1020,6 +1093,64 @@
         "type": "integer",
         "format": "int32"
       },
+      "OperacaoRecurso": {
+        "type": "object",
+        "properties": {
+          "nomeOperacao": {
+            "type": "string",
+            "nullable": true
+          },
+          "tempoPorUnidadeMin": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "recursosDisponiveis": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "horasPorDia": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pedidos_Aberto": {
+        "type": "object",
+        "properties": {
+          "nomeItem": {
+            "type": "string",
+            "nullable": true
+          },
+          "qntdPedida": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dataEntrega": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Produto_Final": {
+        "type": "object",
+        "properties": {
+          "nomeProduto": {
+            "type": "string",
+            "nullable": true
+          },
+          "qntdProduzida": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dataEntrega": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
       "ProdutosModel": {
         "type": "object",
         "properties": {
@@ -1062,6 +1193,50 @@
           "custo": {
             "type": "number",
             "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegisterModelCalculo": {
+        "type": "object",
+        "properties": {
+          "produtoFinal": {
+            "$ref": "#/components/schemas/Produto_Final"
+          },
+          "listaMateriais": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Lista_Materiais"
+            },
+            "nullable": true
+          },
+          "estoqueAtual": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Estoque_Atual"
+            },
+            "nullable": true
+          },
+          "pedidosAbertos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Pedidos_Aberto"
+            },
+            "nullable": true
+          },
+          "leadTimes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Lead_Time"
+            },
+            "nullable": true
+          },
+          "recursosProducao": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OperacaoRecurso"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false

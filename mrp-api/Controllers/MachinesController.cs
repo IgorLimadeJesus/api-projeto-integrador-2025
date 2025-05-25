@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using mrp_api.Data;
-using mrp_api.DTOs.Objects;
 using mrp_api.Objects.Models;
 using mrp_api.Repositorios.Interface;
 

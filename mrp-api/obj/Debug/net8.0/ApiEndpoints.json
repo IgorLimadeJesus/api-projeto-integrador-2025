@@ -274,13 +274,29 @@
     "Parameters": [
       {
         "Name": "manutencao",
-        "Type": "mrp_api.DTOs.Objects.definirManutencao",
+        "Type": "mrp_api.Objects.Models.definirManutencao",
         "IsRequired": true
       },
       {
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "mrp_api.Controllers.MrpController",
+    "Method": "CalcularMRP",
+    "RelativePath": "MRP/Calcular",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "mrp_api.Objects.Models.RegisterModelCalculo",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

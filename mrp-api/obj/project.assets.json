@@ -5197,11 +5197,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\mrp-api.csproj",
+      "projectUniqueName": "C:\\Users\\igorm\\Documents\\Projetos\\mrp-api\\mrp-api\\mrp-api.csproj",
       "projectName": "mrp-api",
-      "projectPath": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\mrp-api.csproj",
+      "projectPath": "C:\\Users\\igorm\\Documents\\Projetos\\mrp-api\\mrp-api\\mrp-api.csproj",
       "packagesPath": "C:\\Users\\igorm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\obj\\",
+      "outputPath": "C:\\Users\\igorm\\Documents\\Projetos\\mrp-api\\mrp-api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

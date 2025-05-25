@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mtYCg83ADA4=",
+  "dgSpecHash": "d0zj1VOZqsA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\igorm\\Documents\\Projetos\\projeto-integrador-2025\\backend\\mrp-api\\mrp-api.csproj",
+  "projectFilePath": "C:\\Users\\igorm\\Documents\\Projetos\\mrp-api\\mrp-api\\mrp-api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\igorm\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\igorm\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

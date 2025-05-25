@@ -1,6 +1,6 @@
 ﻿using mrp_api.Objects.Dto;
 
-namespace mrp_api.DTOs.Objects
+namespace mrp_api.Objects.Models
 {
     public class definirFuncionario
     {
