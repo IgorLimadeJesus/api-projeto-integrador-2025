@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using mrp_api.Data;
 using mrp_api.DTOs.Models;
-using mrp_api.Objects.Models;
+using mrp_api.Objects.DTOs;
 using mrp_api.Repositorios.Interface;
 
 namespace mrp_api.Controllers

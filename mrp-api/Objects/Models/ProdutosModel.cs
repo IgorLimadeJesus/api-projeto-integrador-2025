@@ -26,7 +26,7 @@ namespace mrp_api.DTOs.Models
         [Column("ID_Funcionario")]
         [ForeignKey("funcionario")]
         public int? id_Funcionario { get; set; }
-        public UserModel? funcionario { get; set; }
+        public FuncionarioModel? funcionario { get; set; }
 
         [Column("Qntd")]
         public int quantidade { get; set; }

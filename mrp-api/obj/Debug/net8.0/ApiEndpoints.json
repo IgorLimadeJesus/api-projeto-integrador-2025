@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_2",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_3",
     "RelativePath": "",
     "HttpMethod": "GET",
     "IsController": false,
@@ -16,6 +16,38 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "mrp_api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginUser",
+        "Type": "mrp_api.Objects.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "mrp_api.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerUser",
+        "Type": "mrp_api.Objects.DTOs.RegisterUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "mrp_api.Controllers.CargoController",
@@ -172,27 +204,6 @@
     ]
   },
   {
-    "ContainingType": "mrp_api.Controllers.UserController",
-    "Method": "Login",
-    "RelativePath": "Login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "matricula",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "senha",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "mrp_api.Controllers.MachinesController",
     "Method": "GetMachines",
     "RelativePath": "Maquinas",
@@ -274,7 +285,7 @@
     "Parameters": [
       {
         "Name": "manutencao",
-        "Type": "mrp_api.Objects.Models.definirManutencao",
+        "Type": "mrp_api.Objects.DTOs.definirManutencao",
         "IsRequired": true
       },
       {
@@ -295,11 +306,31 @@
     "Parameters": [
       {
         "Name": "dados",
-        "Type": "mrp_api.Objects.Models.RegisterModelCalculo",
+        "Type": "mrp_api.Objects.DTOs.RegisterModelCalculo",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "mrp_api.Controllers.FuncionarioController",
+    "Method": "GetTotalUsers",
+    "RelativePath": "Mrp/Funcionario/Funcionario/Consulta/Total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "mrp_api.Controllers.MrpController",
@@ -404,7 +435,7 @@
     ]
   },
   {
-    "ContainingType": "mrp_api.Controllers.UserController",
+    "ContainingType": "mrp_api.Controllers.FuncionarioController",
     "Method": "RegisterUser",
     "RelativePath": "Register",
     "HttpMethod": "POST",
@@ -459,7 +490,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "mrp_api.Objects.Models.UserModel",
+        "Type": "mrp_api.Objects.Models.FuncionarioModel",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -470,8 +501,8 @@
     ]
   },
   {
-    "ContainingType": "mrp_api.Controllers.UserController",
-    "Method": "GetAllUsers",
+    "ContainingType": "mrp_api.Controllers.FuncionarioController",
+    "Method": "GetAllFuncionario",
     "RelativePath": "Users",
     "HttpMethod": "GET",
     "IsController": true,
@@ -479,7 +510,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[mrp_api.Objects.Models.UserModel, mrp-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[mrp_api.Objects.Models.FuncionarioModel, mrp-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -490,7 +521,7 @@
     ]
   },
   {
-    "ContainingType": "mrp_api.Controllers.UserController",
+    "ContainingType": "mrp_api.Controllers.FuncionarioController",
     "Method": "GetUserById",
     "RelativePath": "Users/{id}",
     "HttpMethod": "GET",
@@ -505,7 +536,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "mrp_api.Objects.Models.UserModel",
+        "Type": "mrp_api.Objects.Models.FuncionarioModel",
         "MediaTypes": [
           "text/plain",
           "application/json",

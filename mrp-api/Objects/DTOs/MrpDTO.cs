@@ -1,4 +1,4 @@
-﻿namespace mrp_api.Objects.Models
+﻿namespace mrp_api.Objects.DTOs
 {
     public class Produto_Final
     {

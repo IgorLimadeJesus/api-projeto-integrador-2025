@@ -2,7 +2,7 @@
 using mrp_api.Objects.Dto;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace mrp_api.Objects.Models
+namespace mrp_api.Objects.DTOs
 {
 
     public class RegisterModelCalculo
@@ -35,16 +35,4 @@ namespace mrp_api.Objects.Models
         public int? id_Fornecedor { get; set; }
     }
 
-    public class RegisterModelUsers
-    {
-        public string nome { get; set; }
-        public int id_Cargo { get; set; }
-        public int id_Setor { get; set; }
-        public int hierarquia { get; set; }
-        public UserStatus status { get; set; }
-        public decimal salario { get; set; }
-        public int matricula { get; set; }
-        public int? id_Maquina { get; set; }
-        public string senha { get; set; }
-    }
 }

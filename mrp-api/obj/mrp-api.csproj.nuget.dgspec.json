@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\igorm\\Documents\\Projetos\\mrp-api\\mrp-api\\mrp-api.csproj": {}
+    "D:\\Projetos\\mrp-api\\api-projeto-integrador-2025\\mrp-api\\mrp-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\igorm\\Documents\\Projetos\\mrp-api\\mrp-api\\mrp-api.csproj": {
+    "D:\\Projetos\\mrp-api\\api-projeto-integrador-2025\\mrp-api\\mrp-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igorm\\Documents\\Projetos\\mrp-api\\mrp-api\\mrp-api.csproj",
+        "projectUniqueName": "D:\\Projetos\\mrp-api\\api-projeto-integrador-2025\\mrp-api\\mrp-api.csproj",
         "projectName": "mrp-api",
-        "projectPath": "C:\\Users\\igorm\\Documents\\Projetos\\mrp-api\\mrp-api\\mrp-api.csproj",
+        "projectPath": "D:\\Projetos\\mrp-api\\api-projeto-integrador-2025\\mrp-api\\mrp-api.csproj",
         "packagesPath": "C:\\Users\\igorm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\igorm\\Documents\\Projetos\\mrp-api\\mrp-api\\obj\\",
+        "outputPath": "D:\\Projetos\\mrp-api\\api-projeto-integrador-2025\\mrp-api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.4, )"

@@ -11,19 +11,20 @@ namespace mrp_api.Data
 
         }
 
-        public DbSet<UserModel> Users { get; set; }
+        public DbSet<FuncionarioModel> Funcionario { get; set; }
         public DbSet<MachineModel> Machines { get; set; }
         public DbSet<SetorModel> Setor { get; set; }
         public DbSet<CargoModel> Cargo { get; set; }
         public DbSet<ProdutosModel> Produto { get; set; }
         public DbSet<InsumosModel> Insumos { get; set; }
+        public DbSet<UserModel> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<UserModel>()
+            modelBuilder.Entity<FuncionarioModel>()
                 .HasOne(u => u.maquina)
                 .WithOne(m => m.funcionario)
-                .HasForeignKey<UserModel>(u => u.id_Maquina);
+                .HasForeignKey<FuncionarioModel>(u => u.id_Maquina);
 
             base.OnModelCreating(modelBuilder);
         }

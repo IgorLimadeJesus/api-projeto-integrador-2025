@@ -1,7 +1,11 @@
+using System.Text;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using mrp_api.Data;
 using mrp_api.Repositorios;
 using mrp_api.Repositorios.Interface;
+using mrp_api.Services;
+using mrp_api.Services.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +15,21 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddAuthentication("Bearer")
+    .AddJwtBearer("Bearer", options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+    });
 
 //Liberar CORS
 builder.Services.AddCors(options =>
@@ -32,12 +51,13 @@ builder.Services.AddEntityFrameworkSqlServer()
                     option => option.UseSqlServer(builder.Configuration.GetConnectionString("DataBase"))
                     );
 
-builder.Services.AddScoped<IUserRepositorio, UserRepostorio>();
+builder.Services.AddScoped<IFuncionarioRepositorio, FucionarioRepostorio>();
 builder.Services.AddScoped<IMachineRepositorio, MachinesRepositorio>();
 builder.Services.AddScoped<ICargoRepositorio, CargoRepositorio>();
 builder.Services.AddScoped<ISetorRepositorio, SetorRepositorio>();
 builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
 builder.Services.AddScoped<IInsumoRepositorio, InsumosRepositorio>();
+builder.Services.AddScoped<ITokenService, TokenService>();
 
 var app = builder.Build();
 
