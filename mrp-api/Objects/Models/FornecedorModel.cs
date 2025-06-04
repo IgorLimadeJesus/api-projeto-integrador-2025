@@ -14,7 +14,7 @@ namespace mrp_api.DTOs.Models
         [Column("Contato")]
         public string contato { get; set; }
 
-        [Column("CNPJ_CPF")]
+        [Column("CPF_CNPJ")]
         public string cpf_cnpj { get; set; }
         
         [Column("CEP")]
@@ -31,6 +31,9 @@ namespace mrp_api.DTOs.Models
 
         [Column("Complemento")]
         public string complemento { get; set; }
+
+        [Column("Cidade")]
+        public string cidade { get; set; }
 
         [Column("Pais")]
         public string pais { get; set; }

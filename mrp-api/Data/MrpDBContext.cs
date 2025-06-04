@@ -18,6 +18,7 @@ namespace mrp_api.Data
         public DbSet<ProdutosModel> Produto { get; set; }
         public DbSet<InsumosModel> Insumos { get; set; }
         public DbSet<UserModel> Users { get; set; }
+        public DbSet<FornecedorModel> Fornecedor { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

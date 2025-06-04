@@ -58,6 +58,7 @@ builder.Services.AddScoped<ISetorRepositorio, SetorRepositorio>();
 builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
 builder.Services.AddScoped<IInsumoRepositorio, InsumosRepositorio>();
 builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<ISetorRepositorio, SetorRepositorio>();
 
 var app = builder.Build();
 
